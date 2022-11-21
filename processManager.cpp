@@ -29,10 +29,11 @@ void ProcessManager::start()
 
 
 #ifdef Q_OS_LINUX
-    command = "java";
+    QString dir = QCoreApplication::applicationDirPath();
+    command = command = dir + "/jre/bin/java";
     arguments << "-Dfile.encoding=UTF-8";
     arguments << "-jar";
-    arguments << "/home/nick/dpdf.jar";
+    arguments << dir + "/reader.jar";
 #endif
 
 #ifdef Q_OS_WIN
