@@ -1,0 +1,16 @@
+1. download java jre from adoptium
+2. unzip it to a folder
+3. download eclipse
+4. unzip it to a folder
+5. open eclipse
+6. start a new java project
+7. name it dpdf
+8. use project folder as root
+9. configure jre and use jre from adoptium
+10. at libraries path add classpath external jars
+11. add new package wit hname dpdf
+12. add new class with name PageReader
+13. choose PageReader and Run as java application
+14. window - show view - console
+15. export PageReader as jar
+16. package libraries into jar
